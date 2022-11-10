@@ -118,16 +118,15 @@ header{
 }
 
 .container1 {
-    display:flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    MARGIN: 40px;
+    display: flex;
+    flex-direction: column;
     background-color: #111;
     width: 100%;
     height: 100%;
-    padding: 10px;
     margin: 0px;
 }
+
 body{
     margin-top: 5%;
 }
@@ -167,9 +166,10 @@ input[type=submit] {
     height: 63px;
     border-radius: 10px;
     color: #0a0a0a;
-    background: rgb(239, 9, 9);
+    background: rgb(250, 247, 247);
     transition: height 0.4s ease-in-out;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin: 10px;
 }
 
 .bloc-top {
