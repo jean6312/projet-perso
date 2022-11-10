@@ -152,7 +152,7 @@ body{
 }
 input[type=submit] {
 	background-color: #1255a2;
-	color: white;
+	color: rgb(1, 1, 1);
 	padding: 12px 20px;
 	border: none;
 	border-radius: 4px;
@@ -166,7 +166,7 @@ input[type=submit] {
     max-width: 300px;
     height: 63px;
     border-radius: 10px;
-    color: #f8f4f4;
+    color: #0a0a0a;
     background: rgb(239, 9, 9);
     transition: height 0.4s ease-in-out;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -204,7 +204,7 @@ input[type=submit] {
 
 .bloc-links li a {
     font-size: 18px;
-    color: #f1f1f1;
+    color: #010101;
     margin-left: 5px;
 }
 .bloc-links li:last-child{
@@ -259,3 +259,4 @@ input[type=submit] {
     flex-direction: row;
     justify-content: space-between;
 }
+

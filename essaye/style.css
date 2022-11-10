@@ -430,7 +430,7 @@ input[type=text], textarea, input[type=email] {
 /*footer*/
 a{
 	font-weight: 700;
-    color: rgb(255, 11, 11);
+    color: rgb(245, 240, 240);
 }
 .container{
 	max-width: 1170px;
