@@ -127,9 +127,6 @@ header{
     margin: 0px;
 }
 
-body{
-    margin-top: 5%;
-}
 
 .row{
     position: relative;
@@ -243,7 +240,9 @@ input[type=submit] {
     letter-spacing: 1px;
     border-radius: 1px;
     transition: all 0.2s ease;
-  }
+    HEIGHT: 50px;
+    MARGIN: 20px;
+}
   
   input:focus {
     border-color: #F27121;
@@ -258,5 +257,9 @@ input[type=submit] {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.fa-2x {
+    font-size: 2em;
+    margin-top: 20px;
 }
 
