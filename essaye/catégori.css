@@ -34,7 +34,7 @@ header{
     font-size: 2em;
     display: flow-root;
     text-align: center;
-    margin: 60px;
+    margin-top: 40px;
 }
 .titre-texte1 span{
     color: #fb7406;
@@ -83,7 +83,7 @@ header{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         background-color: rgba(255, 158, 3, 0.829);
-        border: 3px solid rgba(238, 233, 233, 0.125);
+        border: 4px solid #8e0677;
         border-radius: 0.25rem;
     }
 
@@ -131,4 +131,12 @@ h4{
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     scroll-behavior: smooth;
+}
+
+p{
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
 }
