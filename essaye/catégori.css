@@ -34,6 +34,7 @@ header{
     font-size: 2em;
     display: flow-root;
     text-align: center;
+    margin: 60px;
 }
 .titre-texte1 span{
     color: #fb7406;
@@ -44,8 +45,11 @@ header{
 .container {
     display: flex; 
 }
-.row{
-    width: 40%;
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .col {
     -webkit-flex-basis: 0;
@@ -130,7 +134,7 @@ p{
     height: 200px;
     align-self: center;
 }
-*{
+* {
     margin: 0px;
     text-decoration: none;
     padding: 0px;
