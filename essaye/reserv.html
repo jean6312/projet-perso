@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reservation.css">
+    <link rel="stylesheet" href="css/bootstrapr.css">
+    <link rel="stylesheet" href="css/stylesr.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -19,44 +20,58 @@
 </header>
 
 <body>
-    <div class="wrapper">
+    <h2 class="text-center my-5 titulo">Formulaire de réservation</h2>
+    <div class="container mt-5 p-5">
+        <div id="contenido" class="row">
+            <div class="col-md-6 agregar-cita">
+                <form id="nueva-cita">
+                    <legend class="mb-4">Information </legend>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label"> Votre Nom :</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="text" id="Votre" name="nom" class="form-control" placeholder="votre nom">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Votre prénom:</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="text" id="propietario" name="propietario" class="form-control"  placeholder="Votre prénom">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Telephone:</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="tel" id="Telephone" name="telefono" class="form-control"  placeholder="Numero de Telephone">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Date :</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="date" id="fecha" name="fecha" class="form-control">
+                        </div>
+                    </div>
 
-        <div class="container-calendar">
-            <h3 id="monthAndYear"></h3>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Horaire:</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="time" id="hora" name="hora" class="form-control">
+                        </div>
+                    </div>
 
-            <div class="button-container-calendar">
-                <button id="previous" onclick="previous()">&#8249;</button>
-                <button id="next" onclick="next()">&#8250;</button>
-            </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Description de la reparation:</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <textarea id="sintomas" name="sintomas" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                            <button type="submit" class="btn btn-success w-100 d-block">Prendre rendez-vous</button>
+                    </div>
+                </form>
+        </div> <!--.row-->
+    </div><!--.container-->
 
-            <table class="table-calendar" id="calendar" data-lang="en">
-                <thead id="thead-month"></thead>
-                <tbody id="calendar-body"></tbody>
-            </table>
+    <script src="js/app.js" type="module"></script>
 
-            <div class="footer-container-calendar">
-                <label for="month">Jump To: </label>
-                <select id="month" onchange="jump()">
-                    <option value=0>Jan</option>
-                    <option value=1>Feb</option>
-                    <option value=2>Mar</option>
-                    <option value=3>Apr</option>
-                    <option value=4>May</option>
-                    <option value=5>Jun</option>
-                    <option value=6>Jul</option>
-                    <option value=7>Aug</option>
-                    <option value=8>Sep</option>
-                    <option value=9>Oct</option>
-                    <option value=10>Nov</option>
-                    <option value=11>Dec</option>
-                </select>
-                <select id="year" onchange="jump()"></select>
-            </div>
-
-        </div>
-
-    </div>
 </body>
-<script src="scriptreserv.js"></script>
-
 </html>
