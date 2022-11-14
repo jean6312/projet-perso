@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="menu" id="contact">
+        <div class="titre">
+            <h2 class="titre-texte"><span>C</span>ontact</h2>
+            <p3>autre choix en bas du formulaire*</p3>
+        </div>
+    </section>
+
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">Nom & prénom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+
+                <label for="emailAddress">Email</label>
+                <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+
+                <input type="submit" value="Envoyer">
+
+                <input id="autre" type="submit" value="Autre contact">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
