@@ -72,7 +72,7 @@ header .navbar li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/clavier.jpg);
+    background-image: url(images/clavier.jpg);
     background-size: cover;
 }
 
