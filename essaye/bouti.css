@@ -120,7 +120,7 @@ header{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(102, 99, 99);
+    background-image: url(images/clavier.jpg);
     width: 100%;
     height: 100%;
 }
