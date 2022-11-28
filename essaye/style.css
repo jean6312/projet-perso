@@ -131,6 +131,7 @@ section{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin: 20px;
 }
 
 .row .col50{
@@ -159,8 +160,7 @@ section{
 }
 
 .row .col50 img{
-    height: 450px;
-    width: 600px;
+    width: 90%;
     position: relative;
 }
 
