@@ -272,3 +272,6 @@ h4{
 .srch:focus{
     outline: none;
 }
+
+@media screen and (max-width : 370px){
+    
