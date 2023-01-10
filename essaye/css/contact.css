@@ -92,3 +92,48 @@ input[type=text], textarea, input[type=email] {
 section{
     padding: 20px;
 }
+.container1 {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(images\clavier.jpg);
+  height: 130%;
+  margin: 15px;
+}
+.titre-texte1{
+  color: rgb(245, 243, 241);
+  font-size: 2em;
+  display: flow-root;
+  text-align: center;
+  margin-top: 60px;
+}
+.titre-texte1 span{
+  color: #fb7406;
+  font-size: 1.5em;
+  font-weight: 700px;
+
+}
+header{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background: rgb(41, 1, 57);
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.5s;
+}
+.logo{
+  color: rgb(251, 245, 245);
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: none;
+}
+.logo span{
+  color: #f77a04;
+} 
+
+
+
